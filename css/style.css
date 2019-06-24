@@ -158,7 +158,7 @@ li {
 ===========================================================*/
 
 .header-area {
-    background: url(../images/home/home.jpg); /*change image*/
+    background: url(../images/home/home5.png); /*change image*/
     background-size: cover;
     position: relative;
     height: 100%;
@@ -672,7 +672,7 @@ canvas{
 ===========================================================*/
 
 .statistic-area{
-    background-image: url(../images/statistic/stats.jpg); /*edit image here*/
+    background-image: url(../images/statistic/stats.png); /*edit image here*/
     position: relative;
     -webkit-background-size:cover;
     background-size:cover;
