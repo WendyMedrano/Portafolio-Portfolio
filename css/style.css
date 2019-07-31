@@ -264,7 +264,7 @@ canvas{
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(0,0,0,0.3);
+    background: rgba(3,3,3,0.05);
 }
 
 .video-bg-area{
@@ -478,6 +478,7 @@ canvas{
 
 .port-button{
     text-align: center;
+    border-radius: 6px;
 }
 
 .portfolio-menu button {
@@ -485,15 +486,18 @@ canvas{
     color: #ffffff;
     padding: 5px 10px;
     text-transform: uppercase;
-    border: 4px double;
+    /* border: 4px double; */
+    border-radius: 6px;
 }
 
 .portfolio-menu button.active {
     background: #F24259;
+    border-radius: 6px;
 }
 
 .portfolio-menu button:hover {
     background: #F24259;
+    border-radius: 6px;
 }
 
 .portfolio img {
