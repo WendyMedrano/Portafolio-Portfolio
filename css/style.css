@@ -41,7 +41,7 @@ body {
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 1px;
-    color: #161616;
+    color: rbga(34, 34, 34, 0.1);
     font-family: 'Poppins', sans-serif;
     height: 100%;
     width: 100%;
@@ -264,7 +264,11 @@ canvas{
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(0,0,0,0.3);
+<<<<<<< HEAD
+    background: rgba(0,0,0,0.02);
+=======
+    background: rgba(3,3,3,0.05);
+>>>>>>> 724b46bc2df46a11f9b944facc0063dd11591ea0
 }
 
 .video-bg-area{
@@ -478,6 +482,7 @@ canvas{
 
 .port-button{
     text-align: center;
+    border-radius: 6px;
 }
 
 .portfolio-menu button {
@@ -485,15 +490,18 @@ canvas{
     color: #ffffff;
     padding: 5px 10px;
     text-transform: uppercase;
-    border: 4px double;
+    /* border: 4px double; */
+    border-radius: 6px;
 }
 
 .portfolio-menu button.active {
     background: #F24259;
+    border-radius: 6px;
 }
 
 .portfolio-menu button:hover {
     background: #F24259;
+    border-radius: 6px;
 }
 
 .portfolio img {
